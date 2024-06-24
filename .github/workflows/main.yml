@@ -1,5 +1,10 @@
 name: workflow1
-on: push
+on:
+ pull_request:
+  branches:
+   - main
+ schedule:
+   - cron: "*/5 * * * *"
 jobs:
  job1:
   runs-on: ubuntu-latest

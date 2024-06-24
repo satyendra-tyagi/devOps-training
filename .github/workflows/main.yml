@@ -15,3 +15,9 @@ jobs:
    - name: step2
      run: echo "hello from step 2"
    - run: echo "Print hello without step name" 
+ job2:
+  runs-on: ubuntu-latest
+  steps:
+   - name: stepJob2
+     run: echo "Hello from push changes"
+   

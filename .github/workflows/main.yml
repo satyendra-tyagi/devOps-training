@@ -5,6 +5,7 @@ on:
    - main
  schedule:
    - cron: "*/5 * * * *"
+ workflow_dispatch:  
 jobs:
  job1:
   runs-on: ubuntu-latest

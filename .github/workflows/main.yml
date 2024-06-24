@@ -12,3 +12,6 @@ jobs:
   steps:
    - name: step1
      run: echo "Hello from push changes"
+   - name: step2
+     run: echo "hello from step 2"
+   - run: echo "Print hello without step name" 
